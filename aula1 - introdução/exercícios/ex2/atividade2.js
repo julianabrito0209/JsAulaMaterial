@@ -3,10 +3,10 @@
 
 window.alert("Calculando o sucessor e o antecessor");
 
-let numero1 = parseInt(window.prompt("Digite um número: ")); 
+let numero = parseInt(window.prompt("Digite um número: ")); 
 
-const sucessor = numero1 + 1;
-const antecessor = numero1 - 1;
+//const sucessor = numero + 1;
+//const antecessor = numero - 1;
 
 
-window.alert(`O número escolhido foi ${numero1}, seu antecessor é ${antecessor} e seu sucessor é ${sucessor}!`);
+window.alert(`O número escolhido foi ${numero}, seu antecessor é ${numero -1} e seu sucessor é ${numero +1}!`);

@@ -13,22 +13,25 @@ window.alert("Boa tarde!");
 const idade = Number(window.prompt("Qual é a sua idade?"));
 
 if (idade < 0 || isNaN(idade) ){
-    window.prompt("Idade Invalida");
+    window.alert("Idade Invalida");
     location.reload(); 
-}else{
-    if (idade >=0 & idade <= 14){
-    window.prompt("Você é CRIANÇA");
+}
+
+if (idade >=0 & idade <= 14){
+    window.alert("Você é CRIANÇA");
     location.reload();
-    }else{
-        if(idade >=15 & idade <= 29){
-        window.prompt("Você é JOVEM");
-        location.reload();}
-            else{
-                if(idade >=30 & idade <= 59){
-                window.prompt("Você é ADULTO");
-                location.reload();}        
-                    else{
-                        if(idade >=60){
-                        window.prompt("Você é IDOSO");}}}}}
-                        location.reload();
-        
+    }
+    
+if(idade >=15 & idade <= 29){
+    window.alert("Você é JOVEM");
+    location.reload();}
+            
+if(idade >=30 & idade <= 59){
+    window.alert("Você é ADULTO");
+    location.reload();}        
+                        
+if(idade >=60){
+    window.alert("Você é IDOSO");}
+    location.reload();
+//window.alert = não vai abrir o espaço para escrever. 
+//window.prompt = vai abrir espaço para preencher alguma coisa

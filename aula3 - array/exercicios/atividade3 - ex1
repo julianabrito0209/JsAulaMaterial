@@ -1,0 +1,5 @@
+// Faça uma listagem de 6 filmes de sua escolha com array e faça eles aparecerem em console.log
+
+
+var filmes = ["A Fraude", "Grande Aposta", "O Poder e a Lei", "Vingadores", "The Wall", "o Poço"];
+console.log(filmes);

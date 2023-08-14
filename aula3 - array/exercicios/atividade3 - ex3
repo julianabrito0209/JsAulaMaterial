@@ -1,0 +1,18 @@
+//Fazer as tabuadas de 1 a 10 com repetições
+
+//  var contadortabuada = 1;
+//  var contadormult = 0;
+
+//  while (contadortabuada <= 10 & contadormult <=9){
+//     console.log(contadortabuada * contadormult);
+//     contadortabuada++;
+//     contadormulti++
+
+
+//  }
+
+ for(var contadortabuada = 1; contadortabuada <=10; contadortabuada++){
+    console.log("-------------");
+    for(var contadormult = 0; contadormult <=9; contadormult++)
+    console.log(`${contadortabuada} x ${contadormult} = ${contadortabuada * contadormult}`)
+ }

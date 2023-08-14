@@ -1,0 +1,13 @@
+// Fazer a tabuada de 8 com repetições
+
+var contador = 0;
+
+
+while (contador < 10){
+    let resultado = contador * 8;
+    console.log(`${contador} x 8 = ${resultado}`);
+    contador++;
+    
+}
+
+

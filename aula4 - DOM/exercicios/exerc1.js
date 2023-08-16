@@ -1,6 +1,6 @@
 
 var input = document.getElementById("inputNome");
-// var input = document.querySelector("inputNome");
+// var input = document.querySelector("#inputNome");
 
 input.addEventListener("focus" , corY );
 input.addEventListener("focusout" , corG );
@@ -10,7 +10,7 @@ function corY(){
     }
 
 function corG(){
-    if (input.value.lenght < 3){
+    if (input.value.length < 3){
         input.style.backgroundColor = "red";
         let resposta = document.getElementById("resposta");
         resposta.style.color = "red"
@@ -21,7 +21,7 @@ function corG(){
         input.style.backgroundColor = "green";
         let resposta = document.getElementById("resposta");
         let conteudodoInput = input.value;
-        let contarInput = input.value.lenght;
+        let contarInput = input.value.length;
         resposta.style.color = "green";
-        resposta.innerHTML = `O número de caracteres ${contarinput} <br> o que está escrito ${conteudodoInput}`;
+        resposta.innerHTML = `O número de caracteres ${contarInput} <br> o que está escrito ${conteudodoInput}`;
     }}

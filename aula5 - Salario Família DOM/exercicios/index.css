@@ -1,0 +1,60 @@
+3*{
+    margin: 0px ;  
+    padding: 0px;
+}
+#pagina{
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 300px;
+}
+
+form input{
+    line-height: 38pt;
+    width: 300px;
+    border: none;
+   
+}
+
+
+
+
+table{
+    align-items: center;
+    border-collapse: collapse;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th, td{
+    
+    height: 50px;
+    border: 2px solid grey;
+    font-size: 10pt;
+    
+}
+
+main{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#botao{
+    width: 120px;
+    background-color: rgb(21, 177, 177);
+    color: white;
+    border: none;
+}

@@ -9,7 +9,7 @@
 // -> History -> Back / Next
 
 
-const divTeste = document.getElementById("teste")
+var divTeste = document.getElementById("teste")
 
 divTeste.addEventListener('click', alerta);
 divTeste.addEventListener('mouseenter', entraDiv);

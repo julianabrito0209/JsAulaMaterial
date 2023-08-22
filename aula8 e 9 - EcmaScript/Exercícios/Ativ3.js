@@ -1,0 +1,1 @@
+//3) Fazer um Promise verificando se o usuário é o ADM utilizando: Nome = ADM e Senha = ADM

@@ -6,5 +6,11 @@ const cursos = {
 
 }
 
+//keys retorna um array com apenas os nomes das propriedades
 const cursoskey = Object.keys(cursos)
-document
+document.getElementById("objectKey").innerHTML = cursoskey;
+
+//entries retorna um array com os nomes das propriedades e seus valores
+const cursosEntries = Object.entries(cursos);
+document.querySelector("#objectEntries").innerHTML = cursosEntries;
+

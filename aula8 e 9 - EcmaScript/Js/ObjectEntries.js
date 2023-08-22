@@ -14,3 +14,12 @@ document.getElementById("objectKey").innerHTML = cursoskey;
 const cursosEntries = Object.entries(cursos);
 document.querySelector("#objectEntries").innerHTML = cursosEntries;
 
+//map roda a função para cada elemento do nosso array 
+// => (arrow function)
+// igual 
+// function(fruta){
+//    
+//}
+var frutas = ["kiwi", "morango", "uva", "tamarindo"];
+var frutasLista = frutas.map((fruta) => "<li>" +fruta+ "</li>")
+document.getElementById("map").innerHTML = `<ul>${frutasLista}</ul>`

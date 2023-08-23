@@ -3,3 +3,4 @@
 var filmes = ["Black Panther", "Capitã Marvel", "O incrível Hulk", "Thor Ragnarok", "Homem de Ferro"]
 var listaFilmes = filmes.map((filme) => "<li> Filme :" +filme+ "</li>")
 document.getElementById("mapFilmes").innerHTML = `<ul>${listaFilmes}</ul>`
+var listaFinal = listafilmes

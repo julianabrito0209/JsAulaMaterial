@@ -20,3 +20,9 @@
     background-color: rgb(235, 243, 243);
     
 }
+#replaceEx{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}

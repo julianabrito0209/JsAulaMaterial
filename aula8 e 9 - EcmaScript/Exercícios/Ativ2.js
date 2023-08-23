@@ -1,6 +1,6 @@
 //2) Fazer um site de escrever textos onde possa implementar as funções de replace e replace all
 
-var textoDigitado = document.getElementById("texto")
+var textoDigitado = document.getElementById("textoDigitado")
 var termo = document.getElementById("termo");
 var novoTermo = document.getElementById("novoTermo");
 
@@ -12,13 +12,21 @@ trocaTudoBtn.addEventListener('click', trocaTodos );
 
 function trocaTermo(){
     let textoDigitadoValor = textoDigitado.value
-    let termovalor = termo.value
+    let termoValor = termo.value
     let novoTermoValor = novoTermo.value
-    var textoFormatado = textoDigitado.replace(termo, novoTermo)
+    
+    var textoFormatado = textoDigitadoValor.replace(termoValor, novoTermoValor)
+    textoDigitado.value = textoFormatado;
 }
 
 function trocaTodos(){
-    textoDigitado.replaceAll(termoValor, novoTermoValor)
+    let textoDigitadoValor = textoDigitado.value
+    let termoValor = termo.value
+    let novoTermoValor = novoTermo.value
+
+    var textoFormatado = textoDigitadoValor.replaceAll(termoValor, novoTermoValor)
+    textoDigitado.value = textoFormatado;
+    
 }
 
 
@@ -26,7 +34,7 @@ function trocaTodos(){
 
 
 console.log(textoDigitado)
-console.log(textoDigitado.replace(termo, novoTermo))
-console.log(textoDigitado.replaceAll(termo, novoTermo))
+console.log(textoDigitadoValor.replace(termoValor, novoTermoValor))
+console.log(textoDigitadoValor.replaceAll(termoValor, novoTermoValor))
 
 

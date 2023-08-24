@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#btnTemaDark{
+    border-radius: 10%;
+    border-color: rgb(192, 255, 206);
+}
+
+.temaClaro{
+    border-radius: 10px;
+    background-color: rgb(224, 153, 233);
+    transition: 2s;
+}
+
+.temaEscuro{
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgb(46, 6, 41);
+    transition: 2s;
+    color: white;
+    
+}
+.cabecalho{
+    display: flex;
+justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+
+.codigoDoAssunto{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(235, 243, 243);
+    
+}
+#replaceEx{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}

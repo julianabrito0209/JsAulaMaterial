@@ -45,13 +45,31 @@ areaTexto.on("input", function(){
 
 
 })
+var areaTexto = document.getElementById("textoDigitado")
+var termo = document.getElementById("termo");
+var novoTermo = document.getElementById("novoTermo");
 
-// $("#btnTemaDark").on("click", function(){
-//     areaTexto.addClass("temaEscuro");
+var trocaBtn = document.getElementById("troca")
+var trocaTudoBtn = document.getElementById("trocaTudo")
 
-// })
+trocaBtn.addEventListener('click', trocaTermo );
+trocaTudoBtn.addEventListener('click', trocaTodos );
 
-// $("#btn").on("mouseout", function(){
-//     areaTexto.removeClass("temaEscuro");
-//     areaTexto.addClass("temaClaro");
-// })
+function trocaTermo(){
+    let textoDigitadoValor = textoDigitado.value
+    let termoValor = termo.value
+    let novoTermoValor = novoTermo.value
+    
+    var textoFormatado = textoDigitadoValor.replace(termoValor, novoTermoValor)
+    textoDigitado.value = textoFormatado;
+}
+
+function trocaTodos(){
+    let textoDigitadoValor = textoDigitado.value
+    let termoValor = termo.value
+    let novoTermoValor = novoTermo.value
+
+    var textoFormatado = textoDigitadoValor.replaceAll(termoValor, novoTermoValor)
+    textoDigitado.value = textoFormatado;
+    
+}

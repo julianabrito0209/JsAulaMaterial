@@ -2,7 +2,6 @@
 // implementar o botao do tema dark e tema light 
 
 
-
 //quantidade dinamica
 
 var areaTexto = $("#areaTexto")
